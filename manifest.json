@@ -1,7 +1,14 @@
 {
-  "short_name": "Control Paquetes",
   "name": "Control de Paquetes y Reincidencias",
-  "description": "Sistema de gestión e inventario de paquetes y reincidencias para resguardo local.",
+  "short_name": "Paquetes",
+  "description": "Sistema de gestión e inventario de paquetes",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/684/684908.png",
@@ -13,17 +20,7 @@
       "src": "https://cdn-icons-png.flaticon.com/512/684/684908.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     }
-  ],
-  "start_url": "./index.html",
-  "scope": "./",
-  "id": "/",
-  "background_color": "#f8fafc",
-  "theme_color": "#2563eb",
-  "display": "standalone",
-  "display_override": ["standalone", "minimal-ui", "fullscreen"],
-  "orientation": "portrait",
-  "lang": "es",
-  "dir": "ltr"
+  ]
 }
