@@ -18,10 +18,11 @@
   ],
   "start_url": "./index.html",
   "scope": "./",
-  "id": "resguardo-paquetes-app",
+  "id": "/",
   "background_color": "#f8fafc",
   "theme_color": "#2563eb",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "fullscreen"],
   "orientation": "portrait",
   "lang": "es",
   "dir": "ltr"
